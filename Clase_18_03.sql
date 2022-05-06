@@ -200,5 +200,3 @@ WHERE  C.CantCuotasP = (SELECT MAX(C.CantCuotasP) FROM Cuotas C);
 
 --Nurnberg Sofia 67111
 
-
-
