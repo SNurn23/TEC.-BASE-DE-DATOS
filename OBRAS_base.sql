@@ -101,7 +101,7 @@ create table ITEM
    IDOBRA               NUMBER(5)            not null,
    IDTIPOITEM           NUMBER(2),
    DENITEM              VARCHAR(120),
-   ORDEN                NUMBER(1),
+   ORDEN                NUMBER(2),
    constraint PK_ITEM primary key (IDITEM, IDOBRA)
 );
 
